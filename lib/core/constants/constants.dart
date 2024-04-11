@@ -3,6 +3,11 @@ import 'package:flutter/material.dart';
 var myDefaultBackGround = Colors.grey[300];
 
 myAppBar(context) => AppBar(
+      title: Text(
+        "Responsive Design".toUpperCase(),
+        style: TextStyle(letterSpacing: 4),
+      ),
+      centerTitle: true,
       backgroundColor: Colors.grey[900],
       foregroundColor: Theme.of(context).colorScheme.background,
     );
